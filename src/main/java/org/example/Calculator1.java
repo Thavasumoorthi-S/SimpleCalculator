@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-abstract class operation
+abstract class Operation
 {
     abstract void check1();
     abstract void  check2();
@@ -12,7 +12,7 @@ abstract class operation
     abstract  void display2();
 
 }
-class basic extends operation
+class Basic extends Operation
 {
     Logger logger=Logger.getLogger("com-api-jar");
     double num1;
@@ -63,12 +63,12 @@ class basic extends operation
     }
 }
 
-public class calculator1
+public class Calculator1
 {
     public static void main(String[] args) {
         Logger logger=Logger.getLogger("com-api-jar");
         Scanner sc = new Scanner(System.in);
-        basic b = new basic();
+        Basic b = new Basic();
         int choice;
         String get;
         logger.info("Enter num1 ");
