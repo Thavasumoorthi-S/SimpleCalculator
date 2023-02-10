@@ -60,7 +60,6 @@ public class Calculator{
         double number2;
         final String inp1 = "Enter number1";
         final String inp2 = "Enter number2";
-
         while (true) {
             logger.info("\n1)Addition \n2)Subtraction \n3)Multiplication \n4)Division \n5)Exit");
             logger.info("Choose any one of the option in the above ");
