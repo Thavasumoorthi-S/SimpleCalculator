@@ -75,7 +75,7 @@ public class calculator1
         b.num1 = sc.nextDouble();
         logger.info("Enter num2 ");
         b.num2 = sc.nextDouble();
-        logger.info("Enter sign ");
+        logger.info("Enter symbol like +-*/");
         b.symbol = sc.next().charAt(0);
         b.check1();
         logger.info("Are you sure want display output?type (yes):(no)");
@@ -91,7 +91,7 @@ public class calculator1
             choice=sc.nextInt();
             if(choice==1)
             {
-                logger.info("Enter sign like +-*/ ");
+                logger.info("Enter symbol like +-*/ ");
                 b.sign = sc.next().charAt(0);
                 logger.info("Enter number ");
                 b.number=sc.nextDouble();
